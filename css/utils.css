@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Nerko+One&display=swap'); */
+:root{
+    --main-bg-color: purple;
+    --font1: 'Comic Neue', cursive;
+    --font2: 'Nerko One', cursive;
+}
+.max-width1{
+   max-width: 80vw;
+}
+.max-width2{
+   max-width: 40vw;
+}
+.m-auto{
+    margin: auto;
+}
+.text-input{
+    font-family: 'Nerko One', cursive;
+    padding: 6px 11px;
+    border: 2ox solid;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 7px
+   
+}
+hr{
+    border-top: 6px dotted;
+}
+.btn{
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    background-color: darkgrey;
+    font-size: 14px;
+    font-style: font2;
+    margin: 2px 6px;
+    padding: 2px 2px;
+    font-family: 'Nerko One', cursive;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background: var(--main-bg-color);
+}

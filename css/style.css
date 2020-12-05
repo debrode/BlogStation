@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.articles{
+    height: 400px;
+    color:white ;
+    background-color: dimgrey;
+
+}
+.article{
+
+}
+.division{
+    height: 400px;
+    /* background-color: #ecf0f5; */
+    display: flex;
+    margin-top: 30px;
+}
+.div-left{
+    font-family: 'Nerko One', cursive;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.div-left p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-right{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.div-right img{
+    height: 318px;
+    display: flex;
+    /* align-items: center; */
+    padding: 1px;
+    border: 2px lightslategrey;
+    border-radius: 196px;
+}
+.footer{
+    height: 100px;
+    /* background-color: var(--main-bg-color); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+}
+.left-nav{
+  display: flex;
+
+}
+.left-nav ul{
+    display: flex;
+    margin: 0 50px;
+    
+}
+.left-nav ul li{
+    list-style: none;
+    display: flex;
+    margin: 0 10px;
+    
+    font-family: 'Nerko One', cursive;
+}
+.left-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.right-nav{
+
+}
+h2{
+    font-family: 'Nerko One', cursive;
+}
+.navigation{
+    font-family: 'Comic Neue', cursive;
+    height: 100px;
+    width: 100%;
+    /* background-color: #fdfdfd; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
